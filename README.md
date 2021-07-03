@@ -9,3 +9,11 @@
 ## To do List
 
 - 
+
+## 버전 관리
+
+|Name|Ver|
+|---|---|
+|python|3.7.9|
+|gspread|3.7.0|
+|oauth2client|4.1.3|
