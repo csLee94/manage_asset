@@ -11,14 +11,20 @@ gc = gspread.authorize(credentials)
 sheet_url = 'https://docs.google.com/spreadsheets/d/1jAyFCNyagIqWyan1rmFPRduOSg-RT4uhfKyNvJ_2ebs/edit#gid=2098151432'
 doc = gc.open_by_url(sheet_url)
 
-History_Cash = doc.worksheet("History_Cash").get_all_values()
-# History_Stock = doc.worksheet("History_Stock").get_all_values()
-# Asset_Code_Table = doc.worksheet("Asset_Code_Table").get_all_values()
-# Asset_Timelapse = doc.worksheet("Asset_Timelapse").get_all_values()
-# Hold_Stock = doc.worksheet("Hold_Stock").get_all_values()
-# Stock_Price = doc.worksheet("Stock_Price").get_all_values()
+History_Cash = doc.worksheet("History_Cash")
+History_Stock = doc.worksheet("History_Stock").get_all_values()
 
-print(History_Cash)
+# def subcash()
+update_rows = []
+update_idx = len(History_Cash.get_all_values())
 
-
-
+for idx in range(len(History_Stock)-1):
+    row = History_Stock[idx+1] 
+    new_date = row[0]
+    from_asset = row[2]
+    deal_type = "Buy_Stock"
+    value = "-"+row[4]
+    related_asset = row[1]
+    update_rows.append([new_date, from_asset, deal_type, value, related_asset])
+History_Cash.insert_rows(update_rows, update_idx+1)
+    

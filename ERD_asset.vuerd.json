@@ -3,8 +3,8 @@
     "version": "2.1.0",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -615,
-    "scrollLeft": -319,
+    "scrollTop": -593,
+    "scrollLeft": -159,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -41,7 +41,7 @@
   "table": {
     "tables": [
       {
-        "name": "Trade_Cash",
+        "name": "History_Cash",
         "comment": "",
         "columns": [
           {
@@ -164,14 +164,14 @@
           "active": false,
           "left": 1168,
           "top": 853,
-          "zIndex": 11,
-          "widthName": 69,
+          "zIndex": 6,
+          "widthName": 77,
           "widthComment": 60
         },
         "id": "cccf99cc-7689-4338-840f-7dca78fc150a"
       },
       {
-        "name": "Trade_Stock",
+        "name": "History_Stock",
         "comment": "",
         "columns": [
           {
@@ -340,8 +340,8 @@
           "active": false,
           "left": 1177,
           "top": 1050,
-          "zIndex": 6,
-          "widthName": 73,
+          "zIndex": 7,
+          "widthName": 81,
           "widthComment": 60
         },
         "id": "d0599445-b13f-4643-bb9e-4c6572cad001"
@@ -447,7 +447,7 @@
           "active": false,
           "left": 170,
           "top": 842,
-          "zIndex": 3,
+          "zIndex": 2,
           "widthName": 68,
           "widthComment": 60
         },
@@ -600,7 +600,7 @@
           "active": false,
           "left": 652,
           "top": 847,
-          "zIndex": 2,
+          "zIndex": 1,
           "widthName": 107,
           "widthComment": 60
         },
@@ -684,7 +684,7 @@
           "active": false,
           "left": 171,
           "top": 1167,
-          "zIndex": 4,
+          "zIndex": 3,
           "widthName": 68,
           "widthComment": 60
         },
@@ -768,7 +768,7 @@
           "active": false,
           "left": 661,
           "top": 1164,
-          "zIndex": 5,
+          "zIndex": 4,
           "widthName": 98,
           "widthComment": 60
         },
@@ -785,7 +785,7 @@
           "active": false,
           "left": 1555,
           "top": 1049,
-          "zIndex": 19,
+          "zIndex": 5,
           "width": 192,
           "height": 100
         },
