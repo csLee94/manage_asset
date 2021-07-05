@@ -1,6 +1,8 @@
 import gspread
 from gspread.models import Worksheet
 from oauth2client.service_account import ServiceAccountCredentials
+import datetime 
+
 
 # google sheet에 대한 사용자 인증
 scope = ['https://spreadsheets.google.com/feeds']
