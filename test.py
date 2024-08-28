@@ -18,7 +18,7 @@ History_Cash = doc.worksheet("History_Cash").get_all_values()
 # Hold_Stock = doc.worksheet("Hold_Stock").get_all_values()
 # Stock_Price = doc.worksheet("Stock_Price").get_all_values()
 
-print(History_Cash)
+print(History_Cash) 
 
 
 
